@@ -13,13 +13,8 @@ struct blocuri{
 };
 
 void afisareDate(blocuri bl){
-        cout<<"Numar bloc:"<<bl.numarBloc<<endl;
-        cout<<"Nume strada:"<<bl.numeStrada<<endl;
-        cout<<"Numar scara:"<<bl.numarScara<<endl;
-        cout<<"Numar apartamente:"<<bl.numarApartamente<<endl;
-        cout<<"Inaltime bloc:"<<bl.inaltimeBloc<<endl;
-        cout<<"Are lift?"<<(bl.lift ? "Da" : "Nu")<<endl;
-        cout<<"Tip bloc:"<<bl.tipBloc<<endl;
+        cout<<"Numar bloc:"<<bl.numarBloc<<"Nume strada:"<<bl.numeStrada<<"Numar scara:"<<bl.numarScara<<"Numar apartamente:"<<bl.numarApartamente<<endl;
+        cout<<"Inaltime bloc:"<<bl.inaltimeBloc<<"Are lift?"<<(bl.lift ? "Da" : "Nu")<<"Tip bloc:"<<bl.tipBloc<<endl;
         cout<<endl;}
 void coletareDate(int n, blocuri* bl){
     for (int i = 0; i < n; i++) {
