@@ -50,5 +50,6 @@ int main() {
         else if (numarCautat > n){
             cout << "Nu exista blocul cu numarul " << numarCautat << endl;}
     }
+
     return 0;
 }
